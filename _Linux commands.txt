@@ -1,0 +1,114 @@
+﻿Common Linux commands:
+
+
+ls: List directory contents.
+Example: ls, ls -l
+
+
+cd: Change directory.
+Example: cd directory_name, cd ..
+
+
+pwd: Print working directory (displays the current directory path).
+Example: pwd
+
+
+mkdir: Make directory (create a new directory).
+Example: mkdir directory_name
+
+
+rm: Remove files or directories.
+Example: rm file.txt, rm -r directory_name
+
+
+cp: Copy files or directories.
+Example: cp file.txt newfile.txt, cp -r directory_name new_directory
+
+
+mv: Move or rename files or directories.
+Example: mv file.txt new_location, mv file.txt newname.txt
+
+
+touch: Create a new empty file or update the timestamp of an existing file.
+Example: touch file.txt
+
+
+cat: Concatenate and display the contents of files.
+Example: cat file.txt
+
+
+grep: Search for a pattern in files.
+Example: grep "pattern" file.txt
+
+
+chmod: Change file permissions.
+Example: chmod +x script.sh (adds execute permission to the script.sh file)
+
+
+chown: Change file owner and group.
+Example: chown user:group file.txt
+
+
+ps: Display information about processes.
+Example: ps aux
+
+
+kill: Send a signal to a process (terminate or control its behavior).
+Example: kill -9 PID (forcefully terminate a process with a specific PID)
+
+
+tar: Archive files.
+Example: tar -cvf archive.tar file1 file2 (create a new archive.tar containing file1 and file2)
+
+
+gzip: Compress files.
+Example: gzip file.txt (creates a compressed file.txt.gz)
+
+
+df: Display disk space usage.
+Example: df -h (displays usage in human-readable format)
+
+
+free: Display amount of free and used memory in the system.
+Example: free -h (displays memory usage in human-readable format)
+
+
+
+
+
+
+File Creation and Running a Program in Linux
+
+
+1. Create a file:
+Use the touch command to create an empty file. For example, to create a file named myprogram.cpp, you would run:
+
+
+touch myprogram.cpp
+
+
+
+
+2. Edit the file:
+Use a text editor like nano, vim, or gedit to edit the file and write your program. For example, to edit myprogram.cpp using nano, you would run:
+
+
+nano myprogram.cpp
+
+
+3. Write your program:
+Write your program code in the text editor and save the file.
+
+
+4. Compile the program (if it's a compiled language like C++):
+Use a compiler like g++ to compile your program. For example, to compile myprogram.cpp into an executable named myprogram, you would run:
+
+
+g++ myprogram.cpp -o myprogram
+
+
+5. Run the program:
+Execute the compiled program. For example, to run myprogram, you would run:
+
+
+./myprogram
